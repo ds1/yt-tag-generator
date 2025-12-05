@@ -1,0 +1,17 @@
+{
+  "name": "yt-tag-generator",
+  "version": "1.0.0",
+  "description": "yt-tag-generator MCP Agent for YouTube SEO Chain",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test-connection.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
